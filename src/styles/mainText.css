@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap");
+
+:root {
+	--text-height: 2em;
+}
+
+.right-container {
+	position: relative;
+}
+
+.maintext-container {
+	position: absolute;
+	top: 0;
+	left: 15rem;
+	z-index: 100;
+}
+
+div.container {
+	display: flex;
+	align-items: flex-end;
+	height: calc(var(--text-height) * 0.75);
+	font-size: calc(2.5 * var(--text-height));
+	font-family: "Archivo", sans-serif;
+	color: white;
+}
+
+img.dual-letter {
+	height: calc(0.5 * var(--text-height));
+	padding-left: calc(0.25 * var(--text-height));
+	padding-top: calc(0.25 * var(--text-height));
+}

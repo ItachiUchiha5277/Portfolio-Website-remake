@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap");
+
+.main-about {
+	font-family: "Archivo", sans-serif;
+}
+
+.main-about > * {
+	padding: 1rem 0;
+	color: white;
+}
