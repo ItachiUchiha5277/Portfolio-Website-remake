@@ -6,8 +6,18 @@ nav {
 	font-family: "Archivo", sans-serif;
 	position: fixed;
 	top: 0;
-	left: 0;
+	left: -20rem;
 	z-index: 100000;
+	animation: swipe 1.5s ease-in-out forwards;
+}
+
+@keyframes swipe {
+	0% {
+		transform: translateX(0rem);
+	}
+	100% {
+		transform: translateX(20rem);
+	}
 }
 
 nav ul {
